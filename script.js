@@ -1,6 +1,3 @@
-// FULL WORKING script.js
-// Replace your entire old script.js with this
-
 let countrySelect = document.getElementById("countrySelect");
 
 let data = {
