@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Scenic Live Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay">
+
+  <h1 class="title">🌍 World  Live Clock</h1>
+
+  <select id="countrySelect" onchange="changeCountry()">
+    <option value="india">India</option>
+    <option value="france">France</option>
+    <option value="japan">Japan</option>
+    <option value="nepal">Nepal</option>
+    <option value="dubai">Dubai</option>
+  </select>
+
+  <div class="clock-box">
+
+    <h2 id="countryName">India 🇮🇳</h2>
+    <h3 id="cityName">New Delhi</h3>
+
+    <div id="time">00:00:00</div>
+
+    <p id="status">🌅 Morning</p>
+
+    <p id="sunTime">Sunrise: 06:00 AM | Sunset: 06:45 PM</p>
+
+    <p id="coords">Lat: 28.6139 | Long: 77.2090</p>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
